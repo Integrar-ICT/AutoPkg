@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Downloads Zoom, and builds a package and imports it into your JSS.</string>
+	<key>Identifier</key>
+	<string>com.github.integrar.jamfupload.zoom</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>Zoom Client for Meetings</string>
+		<key>CATEGORY</key>
+		<string>Collaboration</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>1.0.0</string>
+	<key>ParentRecipe</key>
+	<string>com.github.mlbz521.pkg.ZoomUS-ForIT</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>category</key>
+				<string>%CATEGORY%</string>
+			</dict>
+			<key>Processor</key>
+			<string>com.github.grahampugh.jamf-upload.processors/JamfPackageUploader</string>
+		</dict>
+	</array>
+</dict>
+</plist>
