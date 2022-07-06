@@ -13,7 +13,7 @@
             <key>CATEGORY</key>
             <string>Collaboration</string>
             <key>PATCH_SOFTWARE_TITLE</key>
-            <string>zoom.us</string>
+            <string>Zoom Client for Meetings</string>
             <key>replace_pkg</key>
             <string>False</string>
             <key>PATCH_NAME</key>
