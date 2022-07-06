@@ -14,12 +14,14 @@
             <string>Web Browsers</string>
             <key>PATCH_SOFTWARE_TITLE</key>
             <string>Mozilla Firefox</string>
-			<key>PATCH_NAME</key>
+            <key>replace_pkg</key>
+            <string>True</string>
+            <key>PATCH_NAME</key>
             <string>All - Firefox</string>
             <key>replace_patch</key>
             <string>True</string>
             <key>PATCH_ENABLED</key>
-			<string>true</string>
+            <string>true</string>
             <key>PATCH_TEMPLATE</key>
             <string>PatchTemplate-automatic.xml</string>
         </dict>
