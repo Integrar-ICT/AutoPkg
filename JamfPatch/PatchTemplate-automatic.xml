@@ -12,10 +12,10 @@
         <all_computers>false</all_computers>
         <computers/>
         <computer_groups>
-        <computer_group>
-        <id>1</id>
-        <name>All Managed Clients</name>
-        </computer_group>
+          <computer_group>
+            <id>1</id>
+            <name>All Managed Clients</name>
+          </computer_group>
         </computer_groups>
         <users/>
         <buildings/>
