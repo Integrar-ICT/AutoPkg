@@ -28,7 +28,7 @@
         <key>MinimumVersion</key>
         <string>2.3</string>
         <key>ParentRecipe</key>
-        <string>com.github.integrar.jamfupload.microsoftedge</string>
+        <string>com.github.integrar.jamfupload.slack</string>
         <key>Process</key>
         <array>
             <dict>
