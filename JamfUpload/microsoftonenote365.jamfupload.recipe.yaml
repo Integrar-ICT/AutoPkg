@@ -1,0 +1,15 @@
+Comment: Modified version of Jamf Upload Policies from com.github.autopkg.grahampugh-recipes
+Identifier: com.github.integrar.jamfupload.microsoftonenote365
+ParentRecipe: com.github.rtrouton.pkg.microsoftonenote365
+MinimumVersion: '2.3'
+
+Input:
+  NAME: Microsoft Onenote
+  CATEGORY: Microsoft
+  UPDATE_PREDICATE: pkg_uploaded == False
+
+Process:
+- Processor: com.github.grahampugh.jamf-upload.processors/JamfPackageUploader
+  Arguments:
+    pkg_category: '%CATEGORY%'
+

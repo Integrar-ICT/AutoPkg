@@ -3,17 +3,17 @@
 <plist version="1.0">
     <dict>
         <key>Description</key>
-        <string>Uses parent pkg recipe to download latest Microsoft Word and import it into the JSS. Then will create or update Patch Policy</string>
+        <string>Uses parent pkg recipe to download latest Microsoft teams and import it into the JSS. Then will create or update Patch Policy</string>
         <key>Identifier</key>
-        <string>com.github.integrar.jamfpatch.microsoftword365</string>
+        <string>com.github.integrar.jamfpatch.microsoftteams</string>
         <key>Input</key>
         <dict>
             <key>NAME</key>
-            <string>Microsoft Word</string>
+            <string>Microsoft Teams</string>
             <key>CATEGORY</key>
             <string>Microsoft</string>
             <key>PATCH_SOFTWARE_TITLE</key>
-            <string>Microsoft Word 365/2019</string>
+            <string>Microsoft Teams</string>
             <key>replace_pkg</key>
             <string>False</string>
             <key>PATCH_NAME</key>
@@ -28,7 +28,7 @@
         <key>MinimumVersion</key>
         <string>2.3</string>
         <key>ParentRecipe</key>
-        <string>com.github.integrar.jamfupload.microsoftword365</string>
+        <string>com.github.integrar.jamfupload.microsoftteams</string>
         <key>Process</key>
         <array>
             <dict>
