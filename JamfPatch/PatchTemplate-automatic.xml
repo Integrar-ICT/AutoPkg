@@ -9,9 +9,14 @@
         <patch_unknown>false</patch_unknown>
     </general>
     <scope>
-        <all_computers/>
+        <all_computers>false</all_computers>
         <computers/>
-        <computer_groups>All Managed Clients</computer_groups>
+        <computer_groups>
+        <computer_group>
+        <id>1</id>
+        <name>All Managed Clients</name>
+        </computer_group>
+        </computer_groups>
         <users/>
         <buildings/>
         <departments/>
