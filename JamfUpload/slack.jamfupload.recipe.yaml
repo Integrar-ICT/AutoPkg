@@ -1,0 +1,15 @@
+Comment: Modified version of Firefox.jamf.recipe.yaml from com.github.autopkg.grahampugh-recipes
+Identifier: com.github.integrar.jamfupload.slack
+ParentRecipe: au.com.integrar.pkg.Slack
+MinimumVersion: '2.3'
+
+Input:
+  NAME: Slack
+  CATEGORY: Productivity
+  UPDATE_PREDICATE: pkg_uploaded == False
+
+Process:
+- Processor: com.github.grahampugh.jamf-upload.processors/JamfPackageUploader
+  Arguments:
+    pkg_category: '%CATEGORY%'
+
