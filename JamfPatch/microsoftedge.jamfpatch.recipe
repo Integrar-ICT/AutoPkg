@@ -18,7 +18,7 @@
             <string>False</string>
             <key>PATCH_NAME</key>
             <string>All - %NAME%</string>
-            <key>replace_patch</key>
+            <key>REPLACE_PATCH</key>
             <string>True</string>
             <key>PATCH_ENABLED</key>
             <string>true</string>
@@ -40,6 +40,8 @@
 					<string>%PATCH_SOFTWARE_TITLE%</string>
 					<key>patch_template</key>
 					<string>%PATCH_TEMPLATE%</string>
+					<key>replace_patch</key>
+					<string>%REPLACE_PATCH%</string>
                 </dict>
                 <key>Processor</key>
                 <string>com.github.grahampugh.jamf-upload.processors/JamfPatchUploader</string>
