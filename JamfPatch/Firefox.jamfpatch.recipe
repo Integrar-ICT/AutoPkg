@@ -21,7 +21,7 @@
             <key>replace_patch</key>
             <string>True</string>
             <key>PATCH_ENABLED</key>
-            <string>true</string>
+            <string>false</string>
             <key>PATCH_TEMPLATE</key>
             <string>PatchTemplate-automatic.xml</string>
         </dict>
