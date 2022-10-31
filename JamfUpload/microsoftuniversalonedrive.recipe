@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Description</key>
+	<string>Downloads Microsoft Onedrive, and builds a package and imports it into your JSS.</string>
+	<key>Identifier</key>
+	<string>com.github.integrar.jamfupload.microsoftuniversalonedrive</string>
+	<key>Input</key>
+	<dict>
+		<key>NAME</key>
+		<string>OneDrive</string>
+		<key>Productivity</key>
+		<string>Microsoft</string>
+	</dict>
+	<key>MinimumVersion</key>
+	<string>2.3</string>
+	<key>ParentRecipe</key>
+	<string>com.github.rtrouton.pkg.microsoftuniversalonedrive</string>
+	<key>Process</key>
+	<array>
+		<dict>
+			<key>Arguments</key>
+			<dict>
+				<key>category</key>
+				<string>%CATEGORY%</string>
+			</dict>
+			<key>Processor</key>
+			<string>com.github.grahampugh.jamf-upload.processors/JamfPackageUploader</string>
+		</dict>
+	</array>
+</dict>
+</plist>
